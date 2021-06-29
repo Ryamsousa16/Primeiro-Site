@@ -8,8 +8,12 @@
 		<link rel = "stylesheet" href ="Exerc2-css.css">
 		<link href="css/bootstrap.min.css" rel ="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<script type ="text/javascript" src="js/jquery-3.6.0.min.js"></script>
 		<script type ="text/javascript" src="js/bootstrap.min.js"></script>	
+		<script type ="text/javascript" src="JavaScript.js"></script>
+
+
 	</head>
 	<body>
 			<nav class="navbar navbar-expand-lg navbar-light">
@@ -61,6 +65,49 @@
 	</div>
 			</nav>
 		<iframe id = "mapa" src="https://www.google.com/maps/d/u/0/embed?mid=1-P-14ddnyO6XHVmvLvqw3XMnt-4IsMQg" width="100%" height="428" ></iframe>
-				
+		
+		<div class = "principal">		
+			<div class = "formulario">
+			<div class = "fc">
+				<font><b>Nos envie uma mensagem!</b></font>		
+			</div>
+				<form>	
+					<p>Nome: 
+					<input id = "nome" type = "text" name = "login" size = "25%" required></p>
+					
+					<p id = "email">Email:
+					<input type="email" size = "25%" required /> </p>
+					
+					<p id = "dsm">Digite a sua mensagem:
+					<textarea class = "caixa" cols="25%" required ></textarea></p>
+					
+					<input id = "enviar" type="submit" value="Enviar">
+				</form>
+			</div>
+		</div>
+		<div class = "encerramento">
+			<div class = "extras" id = "anchor">
+				<div class = "container-fluid">
+					<div class = "row">
+						<font class = "contato"> <b>Fale conosco</b></font>
+					<div class = "col-sm-12 col-md-12 col-lg-12">
+						<hr size="5" class="d-block w-60"></hr>
+					</div>
+						<div class = "col-sm-6 col-md-4 col-lg-4">
+							<font class = "final0">Whatsapp: 01 23456-7890</font>
+						</div>
+						<div class = "col-sm-6 col-md-4 col-lg-4">
+							<font class = "final">Endereço: Rua robs 123</font>
+						</div>
+						<div class = "col-sm-6 col-md-4 col-lg-4">
+							<a id = "redes" onclick = "clicar()"  href = "#" class="square-icons fa fa-facebook"></a>
+							<a id = "redes" onclick = "clicar()"  href = "#" class="square-icons fa fa-instagram"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</br>
+			</br>
+		</div>
 	</body>
 </html>

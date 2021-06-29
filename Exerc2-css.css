@@ -42,12 +42,10 @@ iframe{
 	height: 35px;
 	width: 430px;
 }
-.fundo2{
-	background-color: rgb(130,220,147);
-}
 .principal{
 	font-size: 30px;
 	margin-bottom: -20px;
+	background-color: rgb(130,220,147);
 }
 #ajuda{
 	margin-left: 20px;
@@ -92,7 +90,7 @@ iframe{
 .encerramento{
 	margin-top: -30px;
 	background-color: rgb(34,139,34);
-	
+
 }
 .extras{
 	background-color: rgb(34,139,34);
@@ -132,4 +130,38 @@ border: 0;
 font-family: sans-serif;
 opacity: .8;
 z-index: 1;
+}
+#mapa{
+	margin-bottom: -7px;
+}
+.fc{
+	margin-bottom: 10px;
+	text-align: center;
+  
+}
+.formulario{
+	margin-left: 30px;
+	
+}
+textarea {
+	max-width: 200px;
+    width: 200px;
+	min-height: 30px;
+	max-height: 200px;	
+}
+#enviar{
+	color: rgb(0,0,0);
+	font-size: 17px;
+	height: 30px;
+	width: 100px;
+	margin-bottom: 30px;
+}
+#redes{
+	text-align: right;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(15,15,15);
+	height: 30px;
+	width: 30px;
+	opacity: 1;
 }
